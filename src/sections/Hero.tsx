@@ -1,3 +1,5 @@
+'use client';
+import { useState, useEffect } from 'react';
 import prince from "@/assets/images/prince.png";
 import Image from "next/image";
 import ArrowDown from '@/assets/icons/arrow-down.svg';
@@ -5,9 +7,25 @@ import grainImage from '@/assets/images/grain.jpg';
 import StarIcon from '@/assets/icons/star.svg';
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from '@/assets/icons/sparkle.svg';
+import { WelcomeNotification } from "@/components/WelcomeNotification";
 
 
 export const HeroSection = () => {
+  const [showNotification, setShowNotification] = useState(false);
+
+  useEffect(() => {
+    // Show notification after 3 seconds to let the page load and user settle
+    const timer = setTimeout(() => {
+      setShowNotification(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleCloseNotification = () => {
+    setShowNotification(false);
+  };
+
   return( 
   <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
     <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
@@ -89,16 +107,28 @@ export const HeroSection = () => {
       </p>
       </div>
       <div className="flex flex-col  md:flex-row justify-center items-center mt-8 gap-4">
-         <button className="inline-flex items-center gap-2 border border-white/15 px-5 h-9 rounded-xl">
+         <a href="#projects" className="inline-flex items-center gap-2 border border-white/15 px-5 h-9 rounded-xl hover:bg-white/10 transition-colors">
           <span className="font-semibold">Explore my work</span>
           <ArrowDown className="size-4" />
-         </button>
-         <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-9 px-5 rounded-xl">
+         </a>
+         <a href="/blog" className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-9 px-5 rounded-xl hover:bg-white/90 transition-colors">
+          <span>🤖</span>
+          <span className="font-semibold">Read Blog</span>
+         </a>
+         <a href="/about" className="inline-flex items-center gap-2 border border-white/15 px-5 h-9 rounded-xl hover:bg-white/10 transition-colors">
+          <span>👨‍💻</span>
+          <span className="font-semibold">About Me</span>
+         </a>
+         <a href="/contact" className="inline-flex items-center gap-2 border border-white/15 px-5 h-9 rounded-xl hover:bg-white/10 transition-colors">
           <span>✌️</span>
-          <span className="font-semibold">Let&apos;s connect </span>
-         </button>
+          <span className="font-semibold">Let&apos;s connect</span>
+         </a>
       </div>
     </div>
+    <WelcomeNotification 
+      isVisible={showNotification} 
+      onClose={handleCloseNotification} 
+    />
   </div>
   );
 };
