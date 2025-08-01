@@ -143,19 +143,8 @@ const projects: Project[] = [
   }
 ];
 
-const categories = ['All', 'AI/ML', 'IoT', 'Web Development', 'Mobile Development'];
-const statuses = ['All', 'completed', 'in-progress', 'planned'];
-
 export const ProjectsShowcase = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedStatus, setSelectedStatus] = useState('All');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-
-  const filteredProjects = projects.filter(project => {
-    const matchesCategory = selectedCategory === 'All' || project.category === selectedCategory;
-    const matchesStatus = selectedStatus === 'All' || project.status === selectedStatus;
-    return matchesCategory && matchesStatus;
-  });
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -184,43 +173,9 @@ export const ProjectsShowcase = () => {
           description="Showcasing innovative solutions that leverage AI and technology for African development"
         />
 
-        {/* Filters */}
-        <div className="flex flex-wrap gap-4 justify-center mb-12">
-          <div className="flex gap-2">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === category
-                    ? 'bg-emerald-300 text-gray-900'
-                    : 'bg-gray-800 text-white/70 hover:text-white hover:bg-gray-700'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-          <div className="flex gap-2">
-            {statuses.map((status) => (
-              <button
-                key={status}
-                onClick={() => setSelectedStatus(status)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedStatus === status
-                    ? 'bg-emerald-300 text-gray-900'
-                    : 'bg-gray-800 text-white/70 hover:text-white hover:bg-gray-700'
-                }`}
-              >
-                {status.charAt(0).toUpperCase() + status.slice(1)}
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
+          {projects.map((project) => (
             <Card 
               key={project.id} 
               className="p-6 hover:scale-105 transition-transform duration-300 cursor-pointer"
@@ -291,11 +246,7 @@ export const ProjectsShowcase = () => {
           ))}
         </div>
 
-        {filteredProjects.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-white/60">No projects found with the selected filters.</p>
-          </div>
-        )}
+
 
         {/* Project Modal */}
         {selectedProject && (
