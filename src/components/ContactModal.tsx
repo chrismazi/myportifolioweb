@@ -70,10 +70,10 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
           <div className="text-center mb-6">
             <div className="text-3xl mb-3">👋🏽</div>
             <h2 className="text-xl font-serif font-bold text-white mb-2">
-              Let's hang out for a 1:1
+              Let&apos;s hang out for a 1:1
             </h2>
             <p className="text-white/60 text-sm">
-              I'm happy to take 30 minutes out of my schedule to provide mentorship, 
+              I&apos;m happy to take 30 minutes out of my schedule to provide mentorship, 
               pair programming, Q&A, or just chill and talk tech!
             </p>
           </div>

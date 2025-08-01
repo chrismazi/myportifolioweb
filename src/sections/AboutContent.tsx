@@ -55,13 +55,13 @@ export const AboutContent = () => {
                         </div>
                       </div>
                       <p className="text-white/80 leading-relaxed">
-                        Hi 👋 I'm Prince Chris, an AI researcher and developer passionate about solving real-world challenges across Africa. 
+                        Hi 👋 I&apos;m Prince Chris, an AI researcher and developer passionate about solving real-world challenges across Africa. 
                         I lead AI-powered agricultural innovations at <span className="text-emerald-300">CropIntel</span> by ☀️ and create 
                         educational platforms at <span className="text-emerald-300">AI4Impact</span> by 🌙
                       </p>
                       <p className="text-white/80 leading-relaxed mt-4">
                         I love to <span className="text-emerald-300">#buildinpublic</span> and share my journey in AI, 
-                        agriculture, and technology. Let's <span className="text-emerald-300">#connect</span> if you're interested in 
+                        agriculture, and technology. Let&apos;s <span className="text-emerald-300">#connect</span> if you&apos;re interested in 
                         <span className="text-emerald-300"> #AI</span>, <span className="text-emerald-300">#agriculture</span>, 
                         <span className="text-emerald-300"> #innovation</span>, and <span className="text-emerald-300">#Africa</span>
                       </p>
