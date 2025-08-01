@@ -375,7 +375,7 @@ export const ContactContent = () => {
               <div className="flex items-center gap-3 mb-6">
                 <span className="text-2xl">📧</span>
                 <h3 className="text-xl font-serif font-bold text-white">
-                  Let's do some amazing stuff together!
+                  Let&apos;s do some amazing stuff together!
                 </h3>
               </div>
               <p className="text-white/60 mb-6">
@@ -448,7 +448,7 @@ export const ContactContent = () => {
               href="mailto:princechris@example.com"
               className="inline-flex items-center gap-2 bg-emerald-300 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-200 transition-colors"
             >
-              Book a 30 Minute 1:1 With Me (It's Free :)
+              Book a 30 Minute 1:1 With Me (It&apos;s Free :)
               <ArrowUpRightIcon className="size-4" />
             </a>
           </Card>

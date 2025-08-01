@@ -61,7 +61,7 @@ export const ContactHero = () => {
           </div>
         </div>
         <div className="max-w-lg mx-auto">
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Let's do some <span className="underlined">amazing</span> stuff together!</h1>
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Let&apos;s do some <span className="underlined">amazing</span> stuff together!</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             Feel free to select from any of the options below to figure out how best I can be of value to you.
           </p>

@@ -63,7 +63,7 @@ export const AboutHero = () => {
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">More <span className="underlined">About</span> Me</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            From AI research to agricultural innovation, I'm passionate about leveraging technology to solve real-world challenges across Africa.
+            From AI research to agricultural innovation, I&apos;m passionate about leveraging technology to solve real-world challenges across Africa.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

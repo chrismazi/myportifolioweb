@@ -63,7 +63,7 @@ export const BlogHero = () => {
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Insights & Innovations</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Exploring AI's transformative potential across the African continent
+            Exploring AI&apos;s transformative potential across the African continent
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

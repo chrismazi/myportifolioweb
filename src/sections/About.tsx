@@ -28,10 +28,10 @@ const toolboxItems = [
 
 const hobbies = [
   { title: 'Basketball', emoji: '⛹️‍♂️', left: '5%', top: '5%' },
-  { title: 'Latin Musics', emoji: '🎼', left: '45%', top: '15%' },
+  { title: 'Latin American Musics', emoji: '🎼', left: '45%', top: '15%' },
   { title: 'Gaming', emoji: '🎮', left: '35%', top: '40%' },
   { title: 'Movies', emoji: '🎬', left: '60%', top: '60%' },
-  { title: 'Hiking', emoji: '🥾', left: '5%', top: '65%' },
+  { title: 'Karate', emoji: '🥋', left: '5%', top: '65%' },
   { title: 'Fitness', emoji: '🏋️‍♀️', left: '2%', top: '35%' },
 ];
 
