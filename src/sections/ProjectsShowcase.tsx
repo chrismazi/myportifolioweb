@@ -145,7 +145,7 @@ const projects: Project[] = [
   }
 ];
 
-const categories = ['All', 'AI/ML', 'IoT', 'Web Development', 'Mobile Development'];
+const categories = ['All', 'AI/ML', 'IoT', 'Web Development'];
 
 export const ProjectsShowcase = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
