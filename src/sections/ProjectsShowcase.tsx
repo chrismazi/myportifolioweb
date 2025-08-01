@@ -83,40 +83,59 @@ const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'African Tech Hub Platform',
-    description: 'Connecting African tech talent with global opportunities',
-    longDescription: 'A platform that bridges the gap between African developers and international tech companies, fostering collaboration and growth.',
-    category: 'Web Development',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Stripe'],
-    image: '/api/placeholder/600/400',
-    status: 'planned',
-    year: '2024',
-    link: '#',
-    github: '#',
-    features: [
-      'Developer profile management',
-      'Project matching algorithms',
-      'Payment processing system',
-      'Community forums and networking'
-    ]
-  },
-  {
-    id: '5',
-    title: 'Climate Smart Agriculture App',
-    description: 'Mobile app for climate-resilient farming practices',
-    longDescription: 'A mobile application that provides farmers with climate-smart agricultural practices and real-time weather insights.',
-    category: 'Mobile Development',
-    technologies: ['React Native', 'Node.js', 'MongoDB', 'Weather APIs', 'Push Notifications'],
+    title: 'Sparse-Bayesian Cross-Lingual Transformer Project',
+    description: 'Advanced NLP research for cross-lingual understanding',
+    longDescription: 'A research project focused on developing sparse Bayesian cross-lingual transformer models for improved language understanding across African languages.',
+    category: 'AI/ML',
+    technologies: ['Python', 'PyTorch', 'Transformers', 'NLP', 'Bayesian Methods'],
     image: '/api/placeholder/600/400',
     status: 'in-progress',
     year: '2024',
     link: '#',
     github: '#',
     features: [
-      'Weather forecasting and alerts',
-      'Crop planning recommendations',
-      'Soil health monitoring',
-      'Community knowledge sharing'
+      'Cross-lingual model development',
+      'Sparse Bayesian optimization',
+      'African language support',
+      'Research paper implementation'
+    ]
+  },
+  {
+    id: '5',
+    title: 'Kinyarwanda E-Learning Platform',
+    description: 'Educational platform for Kinyarwanda language learning',
+    longDescription: 'An innovative e-learning platform designed to teach and preserve the Kinyarwanda language through interactive digital experiences.',
+    category: 'Web Development',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Audio Processing', 'Gamification'],
+    image: '/api/placeholder/600/400',
+    status: 'completed',
+    year: '2023',
+    link: '#',
+    github: '#',
+    features: [
+      'Interactive language lessons',
+      'Audio pronunciation guides',
+      'Progress tracking system',
+      'Cultural content integration'
+    ]
+  },
+  {
+    id: '6',
+    title: 'Nalytic',
+    description: 'Data analytics and business intelligence platform',
+    longDescription: 'A comprehensive analytics platform that provides businesses with powerful insights through advanced data visualization and machine learning.',
+    category: 'AI/ML',
+    technologies: ['Python', 'React', 'D3.js', 'Machine Learning', 'AWS'],
+    image: '/api/placeholder/600/400',
+    status: 'completed',
+    year: '2024',
+    link: '#',
+    github: '#',
+    features: [
+      'Real-time data visualization',
+      'Predictive analytics',
+      'Custom dashboard creation',
+      'Automated reporting system'
     ]
   }
 ];
