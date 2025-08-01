@@ -1,6 +1,6 @@
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
-import { BlogPost } from "@/sections/BlogPost";
+import { BlogPostContent } from "@/sections/BlogPost";
 import { getPostBySlug, getBlogPosts } from "@/data/blog-posts";
 import { notFound } from "next/navigation";
 
@@ -20,7 +20,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <div>
       <Header />
-      <BlogPost post={post} />
+      <BlogPostContent post={post} />
       <Footer />
     </div>
   );
