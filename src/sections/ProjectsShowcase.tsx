@@ -22,6 +22,7 @@ interface Project {
   status: 'completed' | 'in-progress' | 'planned';
   year: string;
   link?: string;
+  linkText?: string;
   github?: string;
   features: string[];
 }
@@ -76,6 +77,7 @@ const projects: Project[] = [
     status: 'completed',
     year: '2023',
     link: '#',
+    linkText: 'News Article',
     github: '#',
     features: [
       'Real-time environmental monitoring',
@@ -249,7 +251,7 @@ export const ProjectsShowcase = () => {
                       className="inline-flex items-center gap-1 text-emerald-300 hover:text-emerald-200 text-sm"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      <span>Live Demo</span>
+                      <span>{project.linkText || 'Live Demo'}</span>
                       <ArrowUpRightIcon className="size-3" />
                     </a>
                   )}
@@ -346,7 +348,7 @@ export const ProjectsShowcase = () => {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 bg-emerald-300 text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-emerald-200 transition-colors"
                         >
-                          <span>View Live Demo</span>
+                          <span>{selectedProject.linkText ? `View ${selectedProject.linkText}` : 'View Live Demo'}</span>
                           <ArrowUpRightIcon className="size-4" />
                         </a>
                       )}
