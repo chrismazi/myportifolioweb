@@ -7,6 +7,9 @@ import Image from "next/image";
 import cropintelPage from "@/assets/images/cropintel.png";
 import ai4impactPage from "@/assets/images/ai4impact.png";
 import smartcoopPage from "@/assets/images/smart.png";
+import sbcltPage from "@/assets/images/sbclt.png";
+import kinyarwandaPage from "@/assets/images/kinyarwanda.png";
+import nalyticPage from "@/assets/images/nalytic.png";
 
 interface Project {
   id: string;
@@ -88,7 +91,7 @@ const projects: Project[] = [
     longDescription: 'A research project focused on developing sparse Bayesian cross-lingual transformer models for improved language understanding across African languages.',
     category: 'AI/ML',
     technologies: ['Python', 'PyTorch', 'Transformers', 'NLP', 'Bayesian Methods'],
-    image: '/api/placeholder/600/400',
+    image: sbcltPage,
     status: 'in-progress',
     year: '2024',
     link: '#',
@@ -107,7 +110,7 @@ const projects: Project[] = [
     longDescription: 'An innovative e-learning platform designed to teach and preserve the Kinyarwanda language through interactive digital experiences.',
     category: 'Web Development',
     technologies: ['React', 'Node.js', 'MongoDB', 'Audio Processing', 'Gamification'],
-    image: '/api/placeholder/600/400',
+    image: kinyarwandaPage,
     status: 'completed',
     year: '2023',
     link: '#',
@@ -126,7 +129,7 @@ const projects: Project[] = [
     longDescription: 'A comprehensive analytics platform that provides businesses with powerful insights through advanced data visualization and machine learning.',
     category: 'AI/ML',
     technologies: ['Python', 'React', 'D3.js', 'Machine Learning', 'AWS'],
-    image: '/api/placeholder/600/400',
+    image: nalyticPage,
     status: 'completed',
     year: '2024',
     link: '#',
