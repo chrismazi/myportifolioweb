@@ -39,8 +39,8 @@ export const WelcomeNotification = ({ isVisible, onClose }: WelcomeNotificationP
       // Auto-close after 12 seconds
       const autoCloseTimer = setTimeout(() => {
         setIsAnimating(false);
-        setTimeout(onClose, 300); // Wait for animation to complete
-      }, 12000);
+        setTimeout(onClose, 200); // Wait for animation to complete
+      }, 16000);
 
       return () => clearTimeout(autoCloseTimer);
     }
@@ -52,12 +52,10 @@ export const WelcomeNotification = ({ isVisible, onClose }: WelcomeNotificationP
     <div className={`absolute top-20 right-8 z-10 ${isAnimating ? 'animate-in' : 'animate-out'}`}>
       <Card className="p-4 max-w-sm bg-gray-900 border border-gray-700 shadow-2xl hover:scale-105 transition-transform duration-300 gentle-glow">
         <div className="flex items-start gap-3">
-          <div className="text-2xl">👋🏽</div>
           <div className="flex-1">
             <p className="text-white text-sm leading-relaxed">
-              Hi 👋🏽, I&apos;m <span className="font-semibold text-emerald-300">Prince</span>. My superpower is{' '}
+              Hi 👋🏽, I&apos;m <span className="font-semibold text-emerald-300">Chris</span>. My superpower is{' '}
               <span className="font-semibold text-emerald-300">talking to computers</span>. 
-              I also speak @ events on <span className="text-emerald-300">AI, Blockchain & Software Engineering</span>, 
               and I make dope <span className="text-emerald-300">AI solutions for Africa</span>!
             </p>
           </div>
