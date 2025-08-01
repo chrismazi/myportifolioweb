@@ -4,6 +4,9 @@ import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from "next/image";
+import cropintelPage from "@/assets/images/cropintel.png";
+import ai4impactPage from "@/assets/images/ai4impact.png";
+import smartcoopPage from "@/assets/images/smart.png";
 
 interface Project {
   id: string;
@@ -12,7 +15,7 @@ interface Project {
   longDescription: string;
   category: string;
   technologies: string[];
-  image: string;
+  image: any;
   status: 'completed' | 'in-progress' | 'planned';
   year: string;
   link?: string;
@@ -28,7 +31,7 @@ const projects: Project[] = [
     longDescription: 'A comprehensive AI platform that helps farmers make data-driven decisions about crop management, pest control, and resource optimization.',
     category: 'AI/ML',
     technologies: ['Python', 'Machine Learning', 'Computer Vision', 'React', 'Node.js', 'IoT'],
-    image: '/api/placeholder/600/400',
+    image: cropintelPage,
     status: 'completed',
     year: '2024',
     link: '#',
@@ -47,7 +50,7 @@ const projects: Project[] = [
     longDescription: 'A platform that develops and deploys AI solutions to address critical challenges in healthcare, education, and economic development.',
     category: 'AI/ML',
     technologies: ['Python', 'TensorFlow', 'React Native', 'AWS', 'Docker'],
-    image: '/api/placeholder/600/400',
+    image: ai4impactPage,
     status: 'in-progress',
     year: '2024',
     link: '#',
@@ -66,7 +69,7 @@ const projects: Project[] = [
     longDescription: 'An intelligent system that monitors environmental conditions, automates feeding, and provides health insights for poultry farming operations.',
     category: 'IoT',
     technologies: ['IoT', 'Arduino', 'Python', 'React', 'MongoDB', 'Cloud Computing'],
-    image: '/api/placeholder/600/400',
+    image: smartcoopPage,
     status: 'completed',
     year: '2023',
     link: '#',
