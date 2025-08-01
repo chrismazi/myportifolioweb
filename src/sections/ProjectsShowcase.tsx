@@ -144,17 +144,14 @@ const projects: Project[] = [
 ];
 
 const categories = ['All', 'AI/ML', 'IoT', 'Web Development', 'Mobile Development'];
-const statuses = ['All', 'completed', 'in-progress', 'planned'];
 
 export const ProjectsShowcase = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedStatus, setSelectedStatus] = useState('All');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const filteredProjects = projects.filter(project => {
     const matchesCategory = selectedCategory === 'All' || project.category === selectedCategory;
-    const matchesStatus = selectedStatus === 'All' || project.status === selectedStatus;
-    return matchesCategory && matchesStatus;
+    return matchesCategory;
   });
 
   const getStatusColor = (status: string) => {
@@ -201,21 +198,6 @@ export const ProjectsShowcase = () => {
               </button>
             ))}
           </div>
-          <div className="flex gap-2">
-            {statuses.map((status) => (
-              <button
-                key={status}
-                onClick={() => setSelectedStatus(status)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedStatus === status
-                    ? 'bg-emerald-300 text-gray-900'
-                    : 'bg-gray-800 text-white/70 hover:text-white hover:bg-gray-700'
-                }`}
-              >
-                {status.charAt(0).toUpperCase() + status.slice(1)}
-              </button>
-            ))}
-          </div>
         </div>
 
         {/* Projects Grid */}
@@ -234,9 +216,7 @@ export const ProjectsShowcase = () => {
                   height={400}
                   className="w-full h-48 object-cover rounded-lg"
                 />
-                <div className={`absolute top-3 right-3 px-2 py-1 rounded-full text-xs font-medium border ${getStatusBg(project.status)} ${getStatusColor(project.status)}`}>
-                  {project.status}
-                </div>
+
               </div>
               
               <div className="space-y-3">
@@ -326,9 +306,6 @@ export const ProjectsShowcase = () => {
                     <div>
                       <div className="flex items-center gap-3 mb-2">
                         <h2 className="text-2xl font-bold text-white">{selectedProject.title}</h2>
-                        <span className={`px-3 py-1 rounded-full text-sm font-medium border ${getStatusBg(selectedProject.status)} ${getStatusColor(selectedProject.status)}`}>
-                          {selectedProject.status}
-                        </span>
                       </div>
                       <p className="text-white/60">{selectedProject.year}</p>
                     </div>
