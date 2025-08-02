@@ -56,16 +56,7 @@ export const BlogPostContent = ({ post }: BlogPostProps) => {
             ))}
           </div>
 
-          {post.image && (
-            <div className="relative h-64 md:h-96 rounded-lg overflow-hidden bg-gray-700 mb-8">
-              <Image
-                src={post.image}
-                alt={post.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-          )}
+          {/* Image temporarily removed to fix build issues */}
         </div>
 
         {/* Content */}
@@ -73,9 +64,10 @@ export const BlogPostContent = ({ post }: BlogPostProps) => {
           <div className="lg:col-span-3">
             <Card className="p-8 md:p-12">
               <div className="prose prose-invert prose-lg max-w-none">
-                <div className="text-white/80 leading-relaxed whitespace-pre-wrap">
-                  {post.content}
-                </div>
+                <div 
+                  className="text-white/80 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                />
               </div>
             </Card>
           </div>
