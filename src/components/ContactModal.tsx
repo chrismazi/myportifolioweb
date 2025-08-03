@@ -139,10 +139,10 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
             <p className="text-white/40 text-xs">
               Or reach out directly at{' '}
               <a 
-                href="mailto:princechris@example.com" 
+                href="mailto:chrismazimpaka7@gmail.com" 
                 className="text-emerald-300 hover:text-emerald-200 underline"
               >
-                princechris@example.com
+                chrismazimpaka7@gmail.com
               </a>
             </p>
           </div>

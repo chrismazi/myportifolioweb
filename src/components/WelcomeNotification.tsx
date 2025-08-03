@@ -54,8 +54,8 @@ export const WelcomeNotification = ({ isVisible, onClose }: WelcomeNotificationP
         <div className="flex items-start gap-3">
           <div className="flex-1">
             <p className="text-white text-sm leading-relaxed">
-              Hi 👋🏽, I&apos;m <span className="font-semibold text-emerald-300">Chris</span>. My superpower is{' '}
-              <span className="font-semibold text-emerald-300">talking to computers</span>. 
+              Hi 👋🏽, I&apos;m <span className="font-semibold text-emerald-300">Chris</span>. I speak fluent {' '}
+              <span className="font-semibold text-emerald-300">tech with an African accent</span>. 
               and I make dope <span className="text-emerald-300">AI solutions for Africa</span>!
             </p>
           </div>
