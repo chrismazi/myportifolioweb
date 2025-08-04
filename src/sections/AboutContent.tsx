@@ -193,6 +193,16 @@ export const AboutContent = () => {
                     <p className="text-white/70 text-sm leading-relaxed mb-3">
                       {experience.description}
                     </p>
+                    <div className="space-y-2 mb-3">
+                      {experience.achievements.slice(0, 2).map((achievement, achievementIndex) => (
+                        <div key={achievementIndex} className="flex items-start gap-2">
+                          <span className="text-emerald-300 text-xs mt-1">•</span>
+                          <p className="text-white/60 text-xs leading-relaxed">
+                            {achievement}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
                     <div className="flex flex-wrap gap-1 mb-2">
                       {experience.technologies.slice(0, 3).map((tech, techIndex) => (
                         <span

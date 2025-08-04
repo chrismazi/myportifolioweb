@@ -10,6 +10,62 @@ export interface WorkExperience {
 
 export const workExperience: WorkExperience[] = [
   {
+    title: "British Airways",
+    position: "Data Science Job Simulation on Forage",
+    location: "Remote",
+    duration: "March - April 2025",
+    description: "Completed a comprehensive data science simulation project focusing on customer feedback analysis and predictive modeling.",
+    technologies: ["Python", "Beautiful Soup", "Pandas", "NumPy", "Scikit-learn", "Data Scraping"],
+    achievements: [
+      "Processed over 5000+ customer feedback records with 20% increase in data aggregation efficiency",
+      "Used Pandas and NumPy to clean and structure datasets, reducing data inconsistencies by 25%",
+      "Developed predictive models with Scikit-learn improving prediction accuracy by 15%",
+      "Effectively identified key factors influencing customer buying behavior"
+    ]
+  },
+  {
+    title: "National Institute of Statistics Rwanda",
+    position: "Data Scientist Academic Intern",
+    location: "Kigali, RW",
+    duration: "Nov 2024 - Jan 2025",
+    description: "Built data pipelines and conducted statistical analysis for government reports and policy decisions.",
+    technologies: ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Seaborn", "ETL"],
+    achievements: [
+      "Built data pipelines to automate data collection and processing",
+      "Used SQL and Python to manipulate, analyze, and visualize complex datasets",
+      "Analyzed large datasets to identify key trends and patterns",
+      "Assisted in the development of statistical reports for government use"
+    ]
+  },
+  {
+    title: "Rwanda Social Security Board",
+    position: "Research Intern",
+    location: "Kigali, RW",
+    duration: "Jun - Aug 2024",
+    description: "Developed ETL pipelines and forecasting models for pension data analysis and trend prediction.",
+    technologies: ["Python", "ETL", "ARIMA", "Statsmodels", "Streamlit", "Plotly", "Seaborn"],
+    achievements: [
+      "Built Python ETL pipelines consolidating 10,000+ pension records, cutting reporting time by 40%",
+      "Developed ARIMA-based forecasting model predicting contribution trends with 85% accuracy",
+      "Automated dashboards for real-time insights, adopted by 3 departmental teams",
+      "Created comprehensive data visualization solutions using Streamlit, Plotly, and Seaborn"
+    ]
+  },
+  {
+    title: "National Industrial Research & Development Agency (NIRDA)",
+    position: "Project Lead",
+    location: "Kigali, RW",
+    duration: "March - Aug 2023",
+    description: "Led IoT Poultry project development and secured funding through stakeholder presentations.",
+    technologies: ["IoT", "C++", "Sensors", "Project Management", "Stakeholder Communication"],
+    achievements: [
+      "Developed IoT Poultry project integrating 10+ sensors with C++ backend achieving 20% efficiency gain",
+      "Pitched solution to 50+ stakeholders, securing $7,000 in prototype funding",
+      "Led cross-functional team in IoT system development and deployment",
+      "Demonstrated practical applications of IoT technology in agricultural sector"
+    ]
+  },
+  {
     title: "CropIntel",
     position: "AI Research Engineer & Founder",
     location: "Rwanda",
