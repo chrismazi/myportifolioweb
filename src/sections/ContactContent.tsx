@@ -445,7 +445,7 @@ export const ContactContent = () => {
               I have dedicated some time from my busy schedule for technical mentorship, mostly in the form of pair programming and AI guidance.
             </p>
             <a
-              href="mailto:princechris@example.com"
+              href="mailto:chrismazimpaka7@gmail.com"
               className="inline-flex items-center gap-2 bg-emerald-300 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-200 transition-colors"
             >
               Book a 30 Minute 1:1 With Me (It&apos;s Free :)
