@@ -365,3 +365,39 @@
 .gentle-glow {
   animation: gentle-glow 3s ease-in-out infinite;
 }
+
+/* Instagram-style story ring animations */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-slow-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+.animate-spin-slow-reverse {
+  animation: spin-slow-reverse 3s linear infinite;
+}
+
+/* Story ring hover effects */
+.story-ring-container:hover .animate-spin-slow {
+  animation-duration: 1.5s;
+}
+
+.story-ring-container:hover .animate-spin-slow-reverse {
+  animation-duration: 1.5s;
+}

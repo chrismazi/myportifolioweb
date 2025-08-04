@@ -9,9 +9,38 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { WelcomeNotification } from "@/components/WelcomeNotification";
 
+// Import story images
+import chris from "@/assets/images/chris.jpg";
+import calling from "@/assets/images/jesuscalling.jpg";
+import smartcoopPage from "@/assets/images/smart.png";
+import sbcltPage from "@/assets/images/sbclt.png";
+import kinyarwandaPage from "@/assets/images/kinyarwanda.png";
+import nalyticPage from "@/assets/images/nalytic.png";
+
+// Story data
+const stories = [
+  {
+    id: 1,
+    image: chris,
+    title: "Final Year Thesis Defense",
+    description: "Mathematical and Statistical Foundations of transformer architectures in low-resource languages"
+  },
+  {
+    id: 2,
+    image: calling,
+    title: "Book Recommendation: Jesus Calling by Sarah Young",
+    description: "A deeply personal daily devotional that feels like Jesus speaking directly to you. Each message offers peace, encouragement, and quiet strength. This book has helped me slow down, listen, and reconnect with God in life's busyness."
+  },
+  
+  
+  
+  
+];
 
 export const HeroSection = () => {
   const [showNotification, setShowNotification] = useState(false);
+  const [showStories, setShowStories] = useState(false);
+  const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
 
   useEffect(() => {
     // Show notification after 3 seconds to let the page load and user settle
@@ -22,8 +51,39 @@ export const HeroSection = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Prevent body scrolling when stories are open
+  useEffect(() => {
+    if (showStories) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    // Cleanup function to restore scrolling when component unmounts
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [showStories]);
+
   const handleCloseNotification = () => {
     setShowNotification(false);
+  };
+
+  const handleStoryClick = () => {
+    setShowStories(true);
+    setCurrentStoryIndex(0);
+  };
+
+  const handleCloseStories = () => {
+    setShowStories(false);
+  };
+
+  const handleNextStory = () => {
+    setCurrentStoryIndex((prev) => (prev + 1) % stories.length);
+  };
+
+  const handlePrevStory = () => {
+    setCurrentStoryIndex((prev) => (prev - 1 + stories.length) % stories.length);
   };
 
   return( 
@@ -88,17 +148,30 @@ export const HeroSection = () => {
 
     <div className="container">
       <div className="flex flex-col items-center">
-      <Image
-       src={prince} 
-       className= " rounded-full size-[100px]" 
-       alt="person peeking from behind laptop" 
-       />
-      <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-        <div className="bg-green-500 size-2.5 rounded-full relative">
-          <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
+        {/* Profile picture with Instagram-style story ring */}
+        <div className="relative mb-4">
+          <div className="relative w-[108px] h-[108px] story-ring-container cursor-pointer" onClick={handleStoryClick}>
+            {/* Story ring - outer gradient border that rotates */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-400 via-purple-500 to-pink-500 p-1 animate-spin-slow">
+              {/* Inner background - counter-rotates to keep profile picture stable */}
+              <div className="w-full h-full rounded-full bg-gray-950 p-1 animate-spin-slow-reverse">
+                {/* Profile picture - stays stable */}
+                <Image
+                  src={prince} 
+                  className="w-full h-full rounded-full object-cover" 
+                  alt="Prince Chris Mazimpaka" 
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="text-sm  font-medium">Prince Chris Mazimpaka</div>
-      </div>
+        
+        <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
+          <div className="bg-green-500 size-2.5 rounded-full relative">
+            <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
+          </div>
+          <div className="text-sm  font-medium">Prince Chris Mazimpaka</div>
+        </div>
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building Intelligent Solutions for Tomorrow</h1>
@@ -125,6 +198,107 @@ export const HeroSection = () => {
          </a>
       </div>
     </div>
+
+    {/* Instagram-style Story Viewer */}
+    {showStories && (
+      <>
+        {/* Full screen black overlay to block all background content */}
+        <div 
+          className="fixed inset-0 bg-black z-50" 
+          style={{ top: '80px', height: 'calc(100vh - 80px)' }}
+        />
+        
+        {/* Story viewer content */}
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4" 
+          style={{ top: '80px', height: 'calc(100vh - 80px)' }}
+        >
+          <div className="relative w-full h-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-black rounded-lg overflow-hidden">
+            {/* Story Image */}
+            <div className="relative w-full h-full">
+              <Image
+                src={stories[currentStoryIndex].image}
+                alt={stories[currentStoryIndex].title}
+                fill
+                className="object-cover"
+              />
+              
+              {/* Story Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
+                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+                  <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-2">
+                    {stories[currentStoryIndex].title}
+                  </h3>
+                  <p className="text-white/80 text-sm sm:text-base">
+                    {stories[currentStoryIndex].description}
+                  </p>
+                </div>
+              </div>
+
+              {/* Progress Bar */}
+              <div className="absolute top-3 sm:top-4 left-3 sm:left-4 right-3 sm:right-4">
+                <div className="flex gap-1">
+                  {stories.map((_, index) => (
+                    <div key={index} className="flex-1 h-1 bg-white/30 rounded-full overflow-hidden">
+                      <div 
+                        className={`h-full bg-white transition-all duration-300 ${
+                          index === currentStoryIndex ? 'animate-pulse' : ''
+                        }`}
+                        style={{
+                          width: index < currentStoryIndex ? '100%' : 
+                                 index === currentStoryIndex ? '100%' : '0%'
+                        }}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Close Button */}
+              <button
+                onClick={handleCloseStories}
+                className="absolute top-3 sm:top-4 right-3 sm:right-4 text-white text-xl sm:text-2xl hover:text-gray-300 p-2 rounded-full hover:bg-white/10 transition-colors"
+              >
+                ✕
+              </button>
+
+              {/* Navigation Buttons - Hidden on mobile, visible on larger screens */}
+              <button
+                onClick={handlePrevStory}
+                className="hidden sm:block absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl sm:text-3xl hover:text-gray-300 p-2 rounded-full hover:bg-white/10 transition-colors"
+              >
+                ‹
+              </button>
+              <button
+                onClick={handleNextStory}
+                className="hidden sm:block absolute right-3 sm:right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl sm:text-3xl hover:text-gray-300 p-2 rounded-full hover:bg-white/10 transition-colors"
+              >
+                ›
+              </button>
+
+              {/* Mobile Touch Areas for Navigation */}
+              <div className="sm:hidden absolute inset-0 flex">
+                <div 
+                  className="w-1/3 h-full cursor-pointer" 
+                  onClick={handlePrevStory}
+                />
+                <div className="w-1/3 h-full" />
+                <div 
+                  className="w-1/3 h-full cursor-pointer" 
+                  onClick={handleNextStory}
+                />
+              </div>
+
+              {/* Story Counter */}
+              <div className="absolute top-3 sm:top-4 left-3 sm:left-4 text-white/70 text-xs sm:text-sm font-medium">
+                {currentStoryIndex + 1} / {stories.length}
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    )}
+
     <WelcomeNotification 
       isVisible={showNotification} 
       onClose={handleCloseNotification} 
