@@ -56,7 +56,7 @@ export const AboutContent = () => {
                       </div>
                       <p className="text-white/80 leading-relaxed">
                         Hi 👋 I&apos;m Chris a believer in Christ, an AI researcher and developer passionate about solving real-world challenges across Africa. 
-                        I build intelligent systems that help real people, from farmers needing real-time advice to youth learning through tech. My mission is simple: serve with <span className="text-emerald-300">purpose, innovate with faith,  </span> 
+                        I build intelligent systems that help people, from farmers needing real-time advice to youth learning through tech. My mission is simple: serve with <span className="text-emerald-300">purpose, innovate with faith,  </span> 
                         and leave the world better than <span className="text-emerald-300">I found it</span> by 🌙
                       </p>
                       <p className="text-white/80 leading-relaxed mt-4">
@@ -99,7 +99,7 @@ export const AboutContent = () => {
                         <Link href="/blog" className="text-emerald-300 hover:text-emerald-200 underline">
                           Follow my blog
                         </Link>{' '}
-                        where I write about AI applications in Africa, or reach out if you need an expert to 
+                        where I write about AI applications in Africa, or reach out if you need someone to 
                         discuss AI, agricultural technology, or innovation in the African context.
                       </p>
                     </div>

@@ -417,7 +417,9 @@ export const ContactContent = () => {
             <SectionHeader
               eyebrow="Services"
               title="How I Can Help You"
-              description="Explore the different ways we can work together to achieve your goals."
+              description="Explore how we can work together to build something meaningful, impactful, and rooted in purpose.
+
+"
             />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               {services.map((service, index) => (
