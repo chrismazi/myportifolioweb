@@ -127,7 +127,7 @@ With continued support and collaboration, AI can help make African agriculture m
     publishDate: '2024-12-15T00:00:00Z',
     category: 'Agriculture',
     tags: ['AI', 'Agriculture', 'Africa', 'Innovation', 'Technology'],
-    image: '/api/placeholder/800/400',
+    image: '/src/assets/images/aipowered.png',
     readingTime: 8,
     slug: 'ai-powered-agricultural-solutions-africa',
     featured: true
@@ -211,7 +211,7 @@ And I believe we're just getting started.
     publishDate: '2024-12-10T00:00:00Z',
     category: 'Education',
     tags: ['AI', 'Education', 'Talent Development', 'Skills', 'Africa'],
-    image: '/api/placeholder/800/400',
+    image: '/src/assets/images/book-cover.png',
     readingTime: 10,
     slug: 'building-ai-talent-africa-education',
     featured: true
@@ -510,7 +510,7 @@ Ready to start building? Check out the official documentation and join the LangG
     publishDate: '2024-12-05T00:00:00Z',
     category: 'AI Development',
     tags: ['LangGraph', 'LangChain', 'AI', 'Workflows', 'Multi-Agent Systems'],
-    image: '/api/placeholder/800/400',
+    image: '/src/assets/images/memoji-computer.png',
     readingTime: 15,
     slug: 'introduction-to-langgraph'
   },
@@ -952,7 +952,7 @@ The combination of LangChain and vector databases opens up many possibilities fo
     publishDate: '2024-11-30T00:00:00Z',
     category: 'AI Development',
     tags: ['LangChain', 'Vector Databases', 'RAG', 'AI', 'Production'],
-    image: '/api/placeholder/800/400',
+    image: '/src/assets/images/smart.png',
     readingTime: 18,
     slug: 'langchain-vector-databases-production'
   },
@@ -1594,7 +1594,7 @@ Ambient agents represent the future of AI helpers—smart, aware, and always rea
     publishDate: '2024-11-25T00:00:00Z',
     category: 'AI Development',
     tags: ['LangGraph', 'Ambient Agents', 'AI', 'Event-Driven', 'Automation'],
-    image: '/api/placeholder/800/400',
+    image: '/src/assets/images/ai4impact.png',
     readingTime: 20,
     slug: 'building-ambient-agents-langgraph'
   }

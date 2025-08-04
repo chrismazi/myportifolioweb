@@ -56,7 +56,18 @@ export const BlogPostContent = ({ post }: BlogPostProps) => {
             ))}
           </div>
 
-          {/* Image temporarily removed to fix build issues */}
+          {/* Featured Image */}
+          {post.image && (
+            <div className="relative w-full h-64 md:h-80 lg:h-96 mb-8 rounded-lg overflow-hidden">
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          )}
         </div>
 
         {/* Content */}
