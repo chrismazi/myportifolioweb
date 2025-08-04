@@ -255,18 +255,6 @@ export const ProjectsShowcase = () => {
                       <ArrowUpRightIcon className="size-3" />
                     </a>
                   )}
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-emerald-300 hover:text-emerald-200 text-sm"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <span>GitHub</span>
-                      <ArrowUpRightIcon className="size-3" />
-                    </a>
-                  )}
                 </div>
               </div>
             </Card>
@@ -349,17 +337,6 @@ export const ProjectsShowcase = () => {
                           className="inline-flex items-center gap-2 bg-emerald-300 text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-emerald-200 transition-colors"
                         >
                           <span>{selectedProject.linkText ? `View ${selectedProject.linkText}` : 'View Live Demo'}</span>
-                          <ArrowUpRightIcon className="size-4" />
-                        </a>
-                      )}
-                      {selectedProject.github && (
-                        <a
-                          href={selectedProject.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 border border-white/15 text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-colors"
-                        >
-                          <span>View Code</span>
                           <ArrowUpRightIcon className="size-4" />
                         </a>
                       )}
