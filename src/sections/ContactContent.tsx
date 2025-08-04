@@ -17,9 +17,9 @@ const services: Service[] = [
     icon: '🤖'
   },
   {
-    title: 'Speaking',
-    description: 'I will speak at your organization or conference on AI, agricultural technology, innovation, and the African tech ecosystem.',
-    icon: '🎤'
+    title: 'Faith & Purpose-Aligned Projects',
+    description: 'I&apos;m passionate about collaborating on projects that reflect values of service, integrity, and impact. I believe in being young and noble — walking in faith, building with purpose, and making the world a little better along the way.',
+    icon: '🙏'
   },
   {
     title: 'Research',
@@ -33,7 +33,7 @@ const services: Service[] = [
   }
 ];
 
-type ContactPath = 'General Enquiries' | 'AI Consulting' | 'Speaking Engagement' | 'Research Collaboration';
+type ContactPath = 'General Enquiries' | 'AI Consulting' | 'Faith & Purpose-Aligned Projects' | 'Research Collaboration';
 
 export const ContactContent = () => {
   const [selectedPath, setSelectedPath] = useState<ContactPath>('General Enquiries');
@@ -202,7 +202,7 @@ export const ContactContent = () => {
           </>
         );
 
-      case 'Speaking Engagement':
+      case 'Faith & Purpose-Aligned Projects':
         return (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -235,7 +235,7 @@ export const ContactContent = () => {
             </div>
             <div>
               <label className="block text-sm font-medium text-white mb-2">
-                Topic of Interest *
+                Project Type *
               </label>
               <select
                 required
@@ -243,18 +243,18 @@ export const ContactContent = () => {
                 onChange={(e) => handleInputChange('topic', e.target.value)}
                 className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-emerald-300"
               >
-                <option value="">Select a topic</option>
-                <option value="ai-africa">AI in Africa</option>
-                <option value="agricultural-tech">Agricultural Technology</option>
-                <option value="innovation">Innovation & Startups</option>
-                <option value="tech-ecosystem">African Tech Ecosystem</option>
-                <option value="machine-learning">Machine Learning</option>
+                <option value="">Select project type</option>
+                <option value="community-service">Community Service</option>
+                <option value="faith-based">Faith-Based Initiative</option>
+                <option value="social-impact">Social Impact</option>
+                <option value="youth-empowerment">Youth Empowerment</option>
+                <option value="education">Education & Mentorship</option>
                 <option value="other">Other</option>
               </select>
             </div>
             <div>
               <label className="block text-sm font-medium text-white mb-2">
-                Event Details *
+                Project Details *
               </label>
               <textarea
                 required
@@ -262,7 +262,7 @@ export const ContactContent = () => {
                 onChange={(e) => handleInputChange('message', e.target.value)}
                 rows={4}
                 className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-emerald-300"
-                placeholder="Tell me about your event, audience, and requirements..."
+                placeholder="Tell me about your project, its mission, and how we can collaborate..."
               />
             </div>
             <div>
@@ -395,7 +395,7 @@ export const ContactContent = () => {
                   >
                     <option value="General Enquiries">General Enquiries</option>
                     <option value="AI Consulting">AI Consulting</option>
-                    <option value="Speaking Engagement">Speaking Engagement</option>
+                    <option value="Faith & Purpose-Aligned Projects">Faith & Purpose-Aligned Projects</option>
                     <option value="Research Collaboration">Research Collaboration</option>
                   </select>
                 </div>
