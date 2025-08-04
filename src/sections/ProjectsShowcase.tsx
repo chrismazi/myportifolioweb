@@ -30,6 +30,44 @@ interface Project {
 const projects: Project[] = [
   {
     id: '1',
+    title: 'Sparse-Bayesian Cross-Lingual Transformer Project',
+    description: 'Advanced NLP research for cross-lingual understanding',
+    longDescription: 'A research project focused on developing sparse Bayesian cross-lingual transformer models for improved language understanding across African languages.',
+    category: 'AI/ML',
+    technologies: ['Python', 'PyTorch', 'Transformers', 'NLP', 'Bayesian Methods'],
+    image: sbcltPage,
+    status: 'in-progress',
+    year: 'June 2025',
+    link: '#',
+    github: '#',
+    features: [
+      'Cross-lingual model development',
+      'Sparse Bayesian optimization',
+      'African language support',
+      'Research paper implementation'
+    ]
+  },
+  {
+    id: '2',
+    title: 'Nalytic',
+    description: 'Data analytics and business intelligence platform',
+    longDescription: 'A comprehensive analytics platform that provides businesses with powerful insights through advanced data visualization and machine learning.',
+    category: 'AI/ML',
+    technologies: ['Python', 'React', 'D3.js', 'Machine Learning', 'AWS'],
+    image: nalyticPage,
+    status: 'completed',
+    year: 'January 2025',
+    link: '#',
+    github: '#',
+    features: [
+      'Real-time data visualization',
+      'Predictive analytics',
+      'Custom dashboard creation',
+      'Automated reporting system'
+    ]
+  },
+  {
+    id: '3',
     title: 'CropIntel',
     description: 'AI-powered agricultural advisory system for African farmers',
     longDescription: 'A comprehensive AI platform that helps farmers make data-driven decisions about crop management, pest control, and resource optimization.',
@@ -48,7 +86,26 @@ const projects: Project[] = [
     ]
   },
   {
-    id: '2',
+    id: '4',
+    title: 'Kinyarwanda E-Learning Platform',
+    description: 'Educational platform for Kinyarwanda language learning',
+    longDescription: 'An innovative e-learning platform designed to teach and preserve the Kinyarwanda language through interactive digital experiences.',
+    category: 'Web Development',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Audio Processing', 'Gamification'],
+    image: kinyarwandaPage,
+    status: 'completed',
+    year: '2024',
+    link: '#',
+    github: '#',
+    features: [
+      'Interactive language lessons',
+      'Audio pronunciation guides',
+      'Progress tracking system',
+      'Cultural content integration'
+    ]
+  },
+  {
+    id: '5',
     title: 'AI4Impact',
     description: 'AI solutions for social impact across Africa',
     longDescription: 'A platform that develops and deploys AI solutions to address critical challenges in healthcare, education, and economic development.',
@@ -56,7 +113,7 @@ const projects: Project[] = [
     technologies: ['Python', 'TensorFlow', 'React Native', 'AWS', 'Docker'],
     image: ai4impactPage,
     status: 'in-progress',
-    year: '2024',
+    year: '2023',
     link: '#',
     github: '#',
     features: [
@@ -67,7 +124,7 @@ const projects: Project[] = [
     ]
   },
   {
-    id: '3',
+    id: '6',
     title: 'Smart Poultry Farming System',
     description: 'IoT-based monitoring and automation for poultry farms',
     longDescription: 'An intelligent system that monitors environmental conditions, automates feeding, and provides health insights for poultry farming operations.',
@@ -84,63 +141,6 @@ const projects: Project[] = [
       'Automated feeding and watering systems',
       'Health monitoring and alerting',
       'Data analytics dashboard'
-    ]
-  },
-  {
-    id: '4',
-    title: 'Sparse-Bayesian Cross-Lingual Transformer Project',
-    description: 'Advanced NLP research for cross-lingual understanding',
-    longDescription: 'A research project focused on developing sparse Bayesian cross-lingual transformer models for improved language understanding across African languages.',
-    category: 'AI/ML',
-    technologies: ['Python', 'PyTorch', 'Transformers', 'NLP', 'Bayesian Methods'],
-    image: sbcltPage,
-    status: 'in-progress',
-    year: '2024',
-    link: '#',
-    github: '#',
-    features: [
-      'Cross-lingual model development',
-      'Sparse Bayesian optimization',
-      'African language support',
-      'Research paper implementation'
-    ]
-  },
-  {
-    id: '5',
-    title: 'Kinyarwanda E-Learning Platform',
-    description: 'Educational platform for Kinyarwanda language learning',
-    longDescription: 'An innovative e-learning platform designed to teach and preserve the Kinyarwanda language through interactive digital experiences.',
-    category: 'Web Development',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Audio Processing', 'Gamification'],
-    image: kinyarwandaPage,
-    status: 'completed',
-    year: '2023',
-    link: '#',
-    github: '#',
-    features: [
-      'Interactive language lessons',
-      'Audio pronunciation guides',
-      'Progress tracking system',
-      'Cultural content integration'
-    ]
-  },
-  {
-    id: '6',
-    title: 'Nalytic',
-    description: 'Data analytics and business intelligence platform',
-    longDescription: 'A comprehensive analytics platform that provides businesses with powerful insights through advanced data visualization and machine learning.',
-    category: 'AI/ML',
-    technologies: ['Python', 'React', 'D3.js', 'Machine Learning', 'AWS'],
-    image: nalyticPage,
-    status: 'completed',
-    year: '2024',
-    link: '#',
-    github: '#',
-    features: [
-      'Real-time data visualization',
-      'Predictive analytics',
-      'Custom dashboard creation',
-      'Automated reporting system'
     ]
   }
 ];
