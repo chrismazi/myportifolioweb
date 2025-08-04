@@ -137,9 +137,9 @@ With continued support and collaboration, AI can help make African agriculture m
     title: 'Building AI Talent in Africa: Why Education Matters More Than Ever',
     excerpt: 'How education is the key to unlocking Africa\'s AI potential and creating a generation of builders, thinkers, and leaders.',
     content: `
-Artificial Intelligence is changing the world. It's already helping in farming, healthcare, banking, and even in how we teach and learn. But for Africa to be part of this change — not just using AI, but building it — we need something simple but powerful: **education**.
+Artificial Intelligence is changing the world. It's already helping in farming, healthcare, banking, and even in how we teach and learn. But for Africa to be part of this change — not just using AI, but building it — we need something simple but powerful: <strong>education</strong>.
 
-We have the talent. We have the ideas. What we need now is the training, the support, and the belief that **Africans can build world-class AI too**.
+We have the talent. We have the ideas. What we need now is the training, the support, and the belief that <strong>Africans can build world-class AI too</strong>.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Why We're Still Behind</h2>
 
@@ -151,23 +151,23 @@ But we can change that. And in many places — we already are.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Great Things Are Already Happening</h2>
 
-In Rwanda, there's a university called **CMU‑Africa**, part of Carnegie Mellon University. They offer a Master's in Artificial Intelligence (MSEAI), and it's training young Africans to become AI engineers, researchers, and leaders. It's backed by the **Mastercard Foundation**, which also gives scholarships to help students who can't afford tuition.
+In Rwanda, there's a university called <strong>CMU‑Africa</strong>, part of Carnegie Mellon University. They offer a Master's in Artificial Intelligence (MSEAI), and it's training young Africans to become AI engineers, researchers, and leaders. It's backed by the <strong>Mastercard Foundation</strong>, which also gives scholarships to help students who can't afford tuition.
 
 At CMU‑Africa, students are working on real problems — using AI to improve health systems, education, and business. And it's not just in Rwanda. They work with researchers and universities in other African countries too, like Morocco, South Africa, and Botswana.
 
-I was really inspired by students like **Clemence Ingabire**, who wants to use AI to help solve health challenges in Rwanda. Her story shows what's possible when we give young people access to the right programs and support.
+I was really inspired by students like <strong>Clemence Ingabire</strong>, who wants to use AI to help solve health challenges in Rwanda. Her story shows what's possible when we give young people access to the right programs and support.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Other Great Places Doing the Work</h2>
 
-There's also **AIMS** — the African Institute for Mathematical Sciences. They've trained over 2,000 students and now run the **AMMI program**, which focuses on AI and machine learning. It's supported by Google AI and brings some of the world's best researchers to teach in Africa.
+There's also <strong>AIMS</strong> — the African Institute for Mathematical Sciences. They've trained over 2,000 students and now run the <strong>AMMI program</strong>, which focuses on AI and machine learning. It's supported by Google AI and brings some of the world's best researchers to teach in Africa.
 
-And then we have **ALX**, **Andela**, and **Moringa School**. These places are not traditional universities. They are training young people in software development, data science, and AI in just a few months — and helping them get jobs with local and international companies.
+And then we have <strong>ALX</strong>, <strong>Andela</strong>, and <strong>Moringa School</strong>. These places are not traditional universities. They are training young people in software development, data science, and AI in just a few months — and helping them get jobs with local and international companies.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Learning Is Going Online and Into Communities</h2>
 
-Not everyone has access to a university. But many are learning online. Platforms like **Coursera**, **edX**, **DataCamp**, and **Google AI** offer great courses. Even with a slow connection or a basic phone, people are teaching themselves how to code, how to analyze data, and how to build AI systems.
+Not everyone has access to a university. But many are learning online. Platforms like <strong>Coursera</strong>, <strong>edX</strong>, <strong>DataCamp</strong>, and <strong>Google AI</strong> offer great courses. Even with a slow connection or a basic phone, people are teaching themselves how to code, how to analyze data, and how to build AI systems.
 
-In cities and towns, we see things like **AI Saturdays** — where learners meet every weekend to study together. There are also groups like **Women in AI** that help more girls and women enter the tech world. These spaces are welcoming, local, and full of energy.
+In cities and towns, we see things like <strong>AI Saturdays</strong> — where learners meet every weekend to study together. There are also groups like <strong>Women in AI</strong> that help more girls and women enter the tech world. These spaces are welcoming, local, and full of energy.
 
 You don't need to be rich or connected to learn. You just need access — and community.
 
@@ -177,25 +177,25 @@ Of course, challenges remain.
 
 We still need better infrastructure — internet, electricity, and access to computers. We still need more teachers and updated curriculums. We need scholarships and support, especially for girls and students in rural areas.
 
-Governments are starting to help. Countries like Kenya, Rwanda, and South Africa have national AI strategies. That's a good start. But policies alone are not enough. **We need action** — in schools, communities, and companies.
+Governments are starting to help. Countries like Kenya, Rwanda, and South Africa have national AI strategies. That's a good start. But policies alone are not enough. <strong>We need action</strong> — in schools, communities, and companies.
 
-Tech companies like Google, Microsoft, and IBM are also investing in Africa. They've opened research labs, supported training programs, and partnered with local institutions. But we want more than investment. **We want real collaboration** — partnerships where Africans lead, build, and own the future of AI.
+Tech companies like Google, Microsoft, and IBM are also investing in Africa. They've opened research labs, supported training programs, and partnered with local institutions. But we want more than investment. <strong>We want real collaboration</strong> — partnerships where Africans lead, build, and own the future of AI.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">This Is Not Just About Jobs — It's About Ownership</h2>
 
-We are not just training people to work for others. We are training people to build **African solutions for African problems**. AI can help us translate our languages, improve healthcare in rural areas, manage traffic in big cities, and so much more.
+We are not just training people to work for others. We are training people to build <strong>African solutions for African problems</strong>. AI can help us translate our languages, improve healthcare in rural areas, manage traffic in big cities, and so much more.
 
 Look at people like:
 
-• **Joy Buolamwini**, fighting bias in facial recognition.
-• **Tejumade Afonja**, who started AI Saturdays in Nigeria.
-• **Moustapha Cissé**, who leads AI research at Google in West Africa.
+• <strong>Joy Buolamwini</strong>, fighting bias in facial recognition.
+• <strong>Tejumade Afonja</strong>, who started AI Saturdays in Nigeria.
+• <strong>Moustapha Cissé</strong>, who leads AI research at Google in West Africa.
 
 These are Africans leading in AI — and showing us what's possible.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Final Thoughts: The Future Starts with Us</h2>
 
-Building AI talent in Africa starts with one thing: **believing in our people**. It means giving young people the tools to learn, the chance to build, and the support to grow.
+Building AI talent in Africa starts with one thing: <strong>believing in our people</strong>. It means giving young people the tools to learn, the chance to build, and the support to grow.
 
 AI is not just about machines or code. It's about people. People who are curious, creative, and committed to solving problems.
 
@@ -204,7 +204,7 @@ Africa is full of those people.
 If we invest in education — in programs like CMU‑Africa, AIMS, ALX, and in online and local learning spaces — we will create a generation of builders, thinkers, and leaders.
 
 The future of AI in Africa won't come from outside.
-It will come from **our own classrooms**, our own communities, our own stories.
+It will come from <strong>our own classrooms</strong>, our own communities, our own stories.
 
 And I believe we're just getting started.
     `,
@@ -225,13 +225,13 @@ And I believe we're just getting started.
 
 LangGraph is a tool that helps you build smart apps where multiple AI helpers can work together. Think of it like a team of workers who can talk to each other and share information to get things done.
 
-Instead of having one AI that does everything, LangGraph lets you create **multiple AI helpers** that each have a specific job. They can work together, share information, and make decisions based on what's happening.
+Instead of having one AI that does everything, LangGraph lets you create <strong>multiple AI helpers</strong> that each have a specific job. They can work together, share information, and make decisions based on what's happening.
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Main Ideas</h2>
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">Keeping Track of Information</h3>
 
-LangGraph uses something called **state** to remember what's happening in your app. This is like a notebook where you write down important information that your AI helpers need to remember.
+LangGraph uses something called <strong>state</strong> to remember what's happening in your app. This is like a notebook where you write down important information that your AI helpers need to remember.
 
 <div class="bg-gray-800 p-4 rounded-lg my-4">
 <pre class="text-emerald-300"><code>from typing import TypedDict, Annotated
@@ -249,7 +249,7 @@ workflow = StateGraph(AgentState)
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">Workers and Connections</h3>
 
-**Workers** (called nodes) are the individual steps in your app. **Connections** (called edges) show how information flows between these workers.
+<strong>Workers</strong> (called nodes) are the individual steps in your app. <strong>Connections</strong> (called edges) show how information flows between these workers.
 
 <div class="bg-gray-800 p-4 rounded-lg my-4">
 <pre class="text-emerald-300"><code># Define workers (functions that do specific jobs)
@@ -407,9 +407,9 @@ workflow.add_conditional_edges("choose", choose_helper)
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">1. Keep It Simple</h3>
 
-• **Start small**: Begin with simple workflows and add more later
-• **Use clear names**: Give your helpers and information clear, simple names
-• **Write comments**: Explain what each part does
+• <strong>Start small</strong>: Begin with simple workflows and add more later
+• <strong>Use clear names</strong>: Give your helpers and information clear, simple names
+• <strong>Write comments</strong>: Explain what each part does
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">2. Handle Problems</h3>
 
@@ -428,9 +428,9 @@ workflow.add_conditional_edges("choose", choose_helper)
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">3. Test Your Work</h3>
 
-• **Test each helper**: Make sure each helper works on its own
-• **Test the whole system**: Make sure all helpers work together
-• **Use fake data**: Test with simple examples first
+• <strong>Test each helper</strong>: Make sure each helper works on its own
+• <strong>Test the whole system</strong>: Make sure all helpers work together
+• <strong>Use fake data</strong>: Test with simple examples first
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Real Examples</h2>
 
@@ -498,10 +498,10 @@ def choose_action(state: SupportState) -> str:
 LangGraph is a powerful tool for building smart apps where multiple AI helpers work together. By understanding the basic ideas of information tracking, workers, and connections, you can create sophisticated workflows that coordinate multiple AI helpers.
 
 The key to success with LangGraph is:
-• **Start simple**: Begin with basic workflows and add more later
-• **Plan your information**: Think about what data your helpers need to share
-• **Test everything**: Make sure your workflows work as expected
-• **Watch performance**: Keep track of how your apps perform
+• <strong>Start simple</strong>: Begin with basic workflows and add more later
+• <strong>Plan your information</strong>: Think about what data your helpers need to share
+• <strong>Test everything</strong>: Make sure your workflows work as expected
+• <strong>Watch performance</strong>: Keep track of how your apps perform
 
 Whether you're building content creation systems, customer help systems, or research assistants, LangGraph gives you the tools to create intelligent, multi-step AI applications.
 
@@ -525,12 +525,12 @@ Vector databases are special databases that can store and find information based
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">Why Use Vector Databases?</h3>
 
-Regular databases only find exact matches, but AI apps often need to find **similar meaning** content. Vector databases solve this by:
+Regular databases only find exact matches, but AI apps often need to find <strong>similar meaning</strong> content. Vector databases solve this by:
 
-• **Smart Search**: Find content based on meaning, not just keywords
-• **Similar Things**: Find related documents, images, or ideas
-• **Recommendations**: Suggest things you might like
-• **Question Answering**: Find relevant information to answer questions
+• <strong>Smart Search</strong>: Find content based on meaning, not just keywords
+• <strong>Similar Things</strong>: Find related documents, images, or ideas
+• <strong>Recommendations</strong>: Suggest things you might like
+• <strong>Question Answering</strong>: Find relevant information to answer questions
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Popular Vector Databases</h2>
 
@@ -917,35 +917,35 @@ async def health_check():
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">1. Manage Your Data</h3>
 
-• **Split Smart**: Choose good sizes for your document pieces
-• **Add Labels**: Include helpful information about your documents
-• **Keep Versions**: Track changes to your database
-• **Backup**: Save copies of your database regularly
+• <strong>Split Smart</strong>: Choose good sizes for your document pieces
+• <strong>Add Labels</strong>: Include helpful information about your documents
+• <strong>Keep Versions</strong>: Track changes to your database
+• <strong>Backup</strong>: Save copies of your database regularly
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">2. Keep It Safe</h3>
 
-• **Control Access**: Only let authorized people use your system
-• **Encrypt Data**: Protect your data with encryption
-• **Secure API**: Use API keys and limit how often people can search
-• **Log Everything**: Keep records of who accessed what
+• <strong>Control Access</strong>: Only let authorized people use your system
+• <strong>Encrypt Data</strong>: Protect your data with encryption
+• <strong>Secure API</strong>: Use API keys and limit how often people can search
+• <strong>Log Everything</strong>: Keep records of who accessed what
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">3. Make It Fast</h3>
 
-• **Spread the Load**: Use multiple servers to handle more users
-• **Balance Work**: Distribute searches across different computers
-• **Remember Results**: Save common search results to avoid doing them again
-• **Watch Performance**: Keep track of how fast your system is
+• <strong>Spread the Load</strong>: Use multiple servers to handle more users
+• <strong>Balance Work</strong>: Distribute searches across different computers
+• <strong>Remember Results</strong>: Save common search results to avoid doing them again
+• <strong>Watch Performance</strong>: Keep track of how fast your system is
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Summary</h2>
 
 Vector databases are essential for building smart AI apps. By combining LangChain with vector databases like Pinecone, Weaviate, or Chroma, you can create powerful search systems that understand meaning.
 
 Key things to remember:
-• **Choose the right database** for your needs and size
-• **Split documents well** for better search results
-• **Use smart search methods** to get better results
-• **Make it fast** for real users
-• **Keep it safe** and backed up
+• <strong>Choose the right database</strong> for your needs and size
+• <strong>Split documents well</strong> for better search results
+• <strong>Use smart search methods</strong> to get better results
+• <strong>Make it fast</strong> for real users
+• <strong>Keep it safe</strong> and backed up
 
 The combination of LangChain and vector databases opens up many possibilities for building intelligent apps that can understand and find information based on meaning. Start with simple implementations and add more features as you need them.
     `,
@@ -963,13 +963,13 @@ The combination of LangChain and vector databases opens up many possibilities fo
     content: `
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">What are Ambient Agents?</h2>
 
-Ambient agents are smart helpers that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are **always working** and **aware of what's going on**.
+Ambient agents are smart helpers that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are <strong>always working</strong> and <strong>aware of what's going on</strong>.
 
 Think of them as smart assistants that:
-• **Watch continuously** without bothering you
-• **Act automatically** based on what's happening
-• **Learn from patterns** to get better over time
-• **Work smoothly** with your existing systems
+• <strong>Watch continuously</strong> without bothering you
+• <strong>Act automatically</strong> based on what's happening
+• <strong>Learn from patterns</strong> to get better over time
+• <strong>Work smoothly</strong> with your existing systems
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Main Parts of Ambient Agents</h2>
 
@@ -1499,27 +1499,27 @@ class AmbientAgent:
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">1. Privacy and Safety</h3>
 
-• **Minimize Data**: Only collect and store necessary information
-• **Local Processing**: Process sensitive data on your own computer when possible
-• **Encrypt Data**: Protect data with encryption
-• **User Control**: Let users control what data is collected
-• **Be Transparent**: Tell users what the agent is doing
+• <strong>Minimize Data</strong>: Only collect and store necessary information
+• <strong>Local Processing</strong>: Process sensitive data on your own computer when possible
+• <strong>Encrypt Data</strong>: Protect data with encryption
+• <strong>User Control</strong>: Let users control what data is collected
+• <strong>Be Transparent</strong>: Tell users what the agent is doing
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">2. Make It Fast</h3>
 
-• **Filter Events**: Only process important events
-• **Batch Processing**: Group similar events together
-• **Remember Results**: Save frequently accessed data
-• **Use Async**: Use non-blocking operations
-• **Watch Resources**: Monitor how much resources are used
+• <strong>Filter Events</strong>: Only process important events
+• <strong>Batch Processing</strong>: Group similar events together
+• <strong>Remember Results</strong>: Save frequently accessed data
+• <strong>Use Async</strong>: Use non-blocking operations
+• <strong>Watch Resources</strong>: Monitor how much resources are used
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">3. User Experience</h3>
 
-• **Don't Bother**: Don't interrupt the user unnecessarily
-• **Be Relevant**: Provide helpful information at the right time
-• **Learn**: Allow users to teach the agent their preferences
-• **Be Clear**: Show users what the agent is doing
-• **Give Control**: Let users easily control the agent
+• <strong>Don't Bother</strong>: Don't interrupt the user unnecessarily
+• <strong>Be Relevant</strong>: Provide helpful information at the right time
+• <strong>Learn</strong>: Allow users to teach the agent their preferences
+• <strong>Be Clear</strong>: Show users what the agent is doing
+• <strong>Give Control</strong>: Let users easily control the agent
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Deployment</h2>
 
@@ -1577,17 +1577,17 @@ class MonitoredAmbientAgent(AmbientAgentWithEvents):
 
 Building ambient agents with LangGraph opens up exciting possibilities for creating smart, aware systems that work quietly in the background. By combining event-driven systems with LangGraph's workflow capabilities, you can create agents that:
 
-• **Watch continuously** without being annoying
-• **Learn and adapt** to user preferences and patterns
-• **Take action automatically** based on context
-• **Work smoothly** with existing systems
+• <strong>Watch continuously</strong> without being annoying
+• <strong>Learn and adapt</strong> to user preferences and patterns
+• <strong>Take action automatically</strong> based on context
+• <strong>Work smoothly</strong> with existing systems
 
 The key to success is:
-• **Start simple**: Begin with basic event watching and add more later
-• **Focus on user experience**: Make sure the agent is helpful, not annoying
-• **Respect privacy**: Be clear about data collection and usage
-• **Test thoroughly**: Watch performance and user feedback
-• **Improve continuously**: Make the agent better based on real usage
+• <strong>Start simple</strong>: Begin with basic event watching and add more later
+• <strong>Focus on user experience</strong>: Make sure the agent is helpful, not annoying
+• <strong>Respect privacy</strong>: Be clear about data collection and usage
+• <strong>Test thoroughly</strong>: Watch performance and user feedback
+• <strong>Improve continuously</strong>: Make the agent better based on real usage
 
 Ambient agents represent the future of AI helpers—smart, aware, and always ready to help when needed. With LangGraph, you have the tools to build these sophisticated systems that truly understand and adapt to their environment.
     `,
