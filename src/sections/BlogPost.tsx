@@ -65,12 +65,10 @@ export const BlogPostContent = ({ post }: BlogPostProps) => {
             <Card className="p-8 md:p-12">
               {/* Add horizontal scroll container for content */}
               <div className="blog-content">
-                <div className="min-w-full prose prose-invert prose-lg max-w-none">
-                  <div 
-                    className="text-white/80 leading-relaxed"
-                    dangerouslySetInnerHTML={{ __html: post.content }}
-                  />
-                </div>
+                <div 
+                  className="text-white/80 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                />
               </div>
             </Card>
           </div>
