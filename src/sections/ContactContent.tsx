@@ -17,8 +17,8 @@ const services: Service[] = [
     icon: '🤖'
   },
   {
-    title: 'Faith & Purpose-Aligned Projects',
-    description: 'I&apos;m passionate about collaborating on projects that reflect values of service, integrity, and impact. I believe in being young and noble — walking in faith, building with purpose, and making the world a little better along the way.',
+    title: 'Calling',
+    description: 'I\'m passionate about collaborating on projects that reflect values of service, integrity, and impact. I believe in being young and noble, walking in faith, building with purpose, and making the world a little better along the way.',
     icon: '🙏'
   },
   {
