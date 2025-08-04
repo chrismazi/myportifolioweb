@@ -42,6 +42,81 @@
   overflow: hidden;
 }
 
+/* Blog post content scrolling */
+.blog-content {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 185, 129, 0.3) transparent;
+}
+
+.blog-content::-webkit-scrollbar {
+  height: 8px;
+}
+
+.blog-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.blog-content::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 185, 129, 0.3);
+  border-radius: 4px;
+}
+
+.blog-content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(16, 185, 129, 0.5);
+}
+
+/* Code block scrolling */
+.blog-content pre {
+  overflow-x: auto;
+  white-space: pre;
+  word-wrap: normal;
+  max-width: 100%;
+}
+
+.blog-content pre::-webkit-scrollbar {
+  height: 6px;
+}
+
+.blog-content pre::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.blog-content pre::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 185, 129, 0.4);
+  border-radius: 3px;
+}
+
+.blog-content pre::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(16, 185, 129, 0.6);
+}
+
+/* Table scrolling */
+.blog-content table {
+  min-width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+.blog-content table::-webkit-scrollbar {
+  height: 6px;
+}
+
+.blog-content table::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.blog-content table::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 185, 129, 0.4);
+  border-radius: 3px;
+}
+
+.blog-content table::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(16, 185, 129, 0.6);
+}
+
 /* Animation utilities for notifications */
 @keyframes slide-in-from-top {
   from {

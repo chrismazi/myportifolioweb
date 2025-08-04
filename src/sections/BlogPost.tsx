@@ -63,11 +63,14 @@ export const BlogPostContent = ({ post }: BlogPostProps) => {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-3">
             <Card className="p-8 md:p-12">
-              <div className="prose prose-invert prose-lg max-w-none">
-                <div 
-                  className="text-white/80 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: post.content }}
-                />
+              {/* Add horizontal scroll container for content */}
+              <div className="blog-content">
+                <div className="min-w-full prose prose-invert prose-lg max-w-none">
+                  <div 
+                    className="text-white/80 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: post.content }}
+                  />
+                </div>
               </div>
             </Card>
           </div>
