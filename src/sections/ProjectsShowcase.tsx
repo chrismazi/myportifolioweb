@@ -38,8 +38,6 @@ const projects: Project[] = [
     image: sbcltPage,
     status: 'in-progress',
     year: 'June 2025',
-    link: '#',
-    github: '#',
     features: [
       'Cross-lingual model development',
       'Sparse Bayesian optimization',
@@ -57,8 +55,6 @@ const projects: Project[] = [
     image: nalyticPage,
     status: 'completed',
     year: 'January 2025',
-    link: '#',
-    github: '#',
     features: [
       'Real-time data visualization',
       'Predictive analytics',
@@ -76,8 +72,6 @@ const projects: Project[] = [
     image: cropintelPage,
     status: 'completed',
     year: '2024',
-    link: '#',
-    github: '#',
     features: [
       'Crop recommendation algorithms using historical weather data',
       'Pest and disease detection using computer vision',
@@ -95,8 +89,6 @@ const projects: Project[] = [
     image: kinyarwandaPage,
     status: 'completed',
     year: '2024',
-    link: '#',
-    github: '#',
     features: [
       'Interactive language lessons',
       'Audio pronunciation guides',
@@ -107,20 +99,42 @@ const projects: Project[] = [
   {
     id: '5',
     title: 'AI4Impact',
-    description: 'AI solutions for social impact across Africa',
-    longDescription: 'A platform that develops and deploys AI solutions to address critical challenges in healthcare, education, and economic development.',
+    description: 'AI4Impact is a platform empowering the next generation of innovators to harness artificial intelligence for real-world impact.',
+    longDescription: `AI4Impact is a platform empowering the next generation of innovators to harness artificial intelligence for real-world impact. We bring together students and professionals to create AI-driven solutions that address global challenges in sectors like agriculture, education, healthcare, and beyond.
+
+Technologies
+
+Python
+
+TensorFlow
+
+React Native
+
+AWS
+
+Docker
+
+Key Features
+• Learn AI through hands-on, real-world projects
+• Innovate solutions for real social and economic challenges
+• Collaborate across disciplines to make a measurable difference
+• Build and deploy AI applications with cutting-edge tools
+
+About the Team
+Led by Prince Chris Mazimpaka, an AI engineer with a strong background in advanced mathematics and programming, AI4Impact transforms complex challenges into innovative solutions. The team thrives on pushing boundaries, building partnerships, and delivering AI innovations that drive meaningful change.
+
+Mission
+Unlock the potential of artificial intelligence by inspiring and equipping future innovators to create solutions that shape a better world.`,
     category: 'AI/ML',
     technologies: ['Python', 'TensorFlow', 'React Native', 'AWS', 'Docker'],
     image: ai4impactPage,
     status: 'in-progress',
     year: '2023',
-    link: '#',
-    github: '#',
     features: [
-      'Healthcare diagnostic tools for rural areas',
-      'Educational content personalization',
-      'Economic forecasting models',
-      'Community impact tracking'
+      'Learn AI through hands-on, real-world projects',
+      'Innovate solutions for real social and economic challenges',
+      'Collaborate across disciplines to make a measurable difference',
+      'Build and deploy AI applications with cutting-edge tools'
     ]
   },
   {
@@ -133,9 +147,6 @@ const projects: Project[] = [
     image: smartcoopPage,
     status: 'completed',
     year: '2023',
-    link: '#',
-    linkText: 'News Article',
-    github: '#',
     features: [
       'Real-time environmental monitoring',
       'Automated feeding and watering systems',
@@ -242,20 +253,7 @@ export const ProjectsShowcase = () => {
                   )}
                 </div>
 
-                <div className="flex gap-2 pt-2">
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-emerald-300 hover:text-emerald-200 text-sm"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <span>{project.linkText || 'Live Demo'}</span>
-                      <ArrowUpRightIcon className="size-3" />
-                    </a>
-                  )}
-                </div>
+
               </div>
             </Card>
           ))}
@@ -328,19 +326,7 @@ export const ProjectsShowcase = () => {
                       </ul>
                     </div>
 
-                    <div className="flex gap-4 pt-4">
-                      {selectedProject.link && (
-                        <a
-                          href={selectedProject.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 bg-emerald-300 text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-emerald-200 transition-colors"
-                        >
-                          <span>{selectedProject.linkText ? `View ${selectedProject.linkText}` : 'View Live Demo'}</span>
-                          <ArrowUpRightIcon className="size-4" />
-                        </a>
-                      )}
-                    </div>
+
                   </div>
                 </div>
               </Card>
