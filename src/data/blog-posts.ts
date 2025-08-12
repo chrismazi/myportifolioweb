@@ -16,11 +16,11 @@ export const blogPosts: BlogPost[] = [
   {
     id: '1',
     title: 'Building Ambient Agents with LangGraph',
-    excerpt: 'Learn how to create smart helpers that work in the background, watching and responding to events automatically.',
+    excerpt: 'Learn how to create smart agents that work in the background, watching and responding to events automatically.',
     content: `
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">What are Ambient Agents?</h2>
 
-Ambient agents are smart helpers that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are <strong>always working</strong> and <strong>aware of what's going on</strong>.
+Ambient agents are smart agents that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are <strong>always working</strong> and <strong>aware of what's going on</strong>.
 
 Think of them as smart assistants that:
 • <strong>Watch continuously</strong> without bothering you
@@ -869,9 +869,9 @@ for event in app.stream({"messages": [{"role": "user", "content": "Hello!"}]}, c
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Advanced Features</h2>
 
-<h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">Multiple Helpers Working Together</h3>
+<h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">Multiple Agents Working Together</h3>
 
-LangGraph is great for creating systems where different helpers each have a specific job:
+LangGraph is great for creating systems where different agents each have a specific job:
 
 <div class="bg-gray-800 p-4 rounded-lg my-4">
 <pre class="text-emerald-300"><code>def research_helper(state: AgentState) -> AgentState:
@@ -889,7 +889,7 @@ def review_helper(state: AgentState) -> AgentState:
     # Review work here
     return state
 
-# Create a team of helpers
+# Create a team of agents
 workflow = StateGraph(AgentState)
 
 workflow.add_node("research", research_helper)
@@ -931,7 +931,7 @@ workflow.add_conditional_edges("choose", choose_helper)
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">1. Keep It Simple</h3>
 
 • <strong>Start small</strong>: Begin with simple workflows and add more later
-• <strong>Use clear names</strong>: Give your helpers and information clear, simple names
+• <strong>Use clear names</strong>: Give your agents and information clear, simple names
 • <strong>Write comments</strong>: Explain what each part does
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">2. Handle Problems</h3>
@@ -951,8 +951,8 @@ workflow.add_conditional_edges("choose", choose_helper)
 
 <h3 class="text-xl font-semibold text-emerald-300 mb-3 mt-6">3. Test Your Work</h3>
 
-• <strong>Test each helper</strong>: Make sure each helper works on its own
-• <strong>Test the whole system</strong>: Make sure all helpers work together
+• <strong>Test each agent</strong>: Make sure each agent works on its own
+• <strong>Test the whole system</strong>: Make sure all agents work together
 • <strong>Use fake data</strong>: Test with simple examples first
 
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">Real Examples</h2>
@@ -1022,7 +1022,7 @@ LangGraph is a powerful tool for building smart apps where multiple AI agents wo
 
 The key to success with LangGraph is:
 • <strong>Start simple</strong>: Begin with basic workflows and add more later
-• <strong>Plan your information</strong>: Think about what data your helpers need to share
+• <strong>Plan your information</strong>: Think about what data your agents need to share
 • <strong>Test everything</strong>: Make sure your workflows work as expected
 • <strong>Watch performance</strong>: Keep track of how your apps perform
 
@@ -1487,7 +1487,7 @@ The combination of LangChain and vector databases opens up many possibilities fo
     content: `
 <h2 class="text-2xl font-bold text-white mb-4 mt-8">What are Ambient Agents?</h2>
 
-Ambient agents are smart helpers that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are <strong>always working</strong> and <strong>aware of what's going on</strong>.
+Ambient agents are smart agents that work quietly in the background, watching what's happening and taking action when needed. Unlike regular chatbots that wait for you to talk to them, ambient agents are <strong>always working</strong> and <strong>aware of what's going on</strong>.
 
 Think of them as smart assistants that:
 • <strong>Watch continuously</strong> without bothering you
