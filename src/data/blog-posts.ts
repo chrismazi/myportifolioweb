@@ -648,7 +648,7 @@ The key to success is:
 
 Ambient agents represent the future of AI agents—smart, aware, and always ready to help when needed. With LangGraph, you have the tools to build these sophisticated systems that truly understand and adapt to their environment.
     `,
-    publishDate: '2024-12-20T00:00:00Z',
+    publishDate: '2025-06-20T00:00:00Z',
     category: 'AI Development',
     tags: ['LangGraph', 'Ambient Agents', 'AI', 'Event-Driven', 'Automation'],
     image: '/src/assets/images/ai4impact.png',
@@ -732,7 +732,7 @@ It will come from <strong>our own classrooms</strong>, our own communities, our 
 
 And I believe we're just getting started.
     `,
-    publishDate: '2024-11-30T00:00:00Z',
+    publishDate: '2025-05-30T00:00:00Z',
     category: 'AI Development',
     tags: ['LangChain', 'Vector Databases', 'RAG', 'AI', 'Production'],
     image: '/src/assets/images/smart.png',
@@ -1030,7 +1030,7 @@ Whether you're building content creation systems, customer help systems, or rese
 
 Ready to start building? Check out the official documentation and join the LangGraph community to learn from others and share your experiences!
     `,
-    publishDate: '2024-12-05T00:00:00Z',
+    publishDate: '2025-02-05T00:00:00Z',
     category: 'AI Development',
     tags: ['LangGraph', 'LangChain', 'AI', 'Workflows', 'Multi-Agent Systems'],
     image: '/src/assets/images/memoji-computer.png',
@@ -1472,7 +1472,7 @@ Key things to remember:
 
 The combination of LangChain and vector databases opens up many possibilities for building intelligent apps that can understand and find information based on meaning. Start with simple implementations and add more features as you need them.
     `,
-    publishDate: '2024-12-10T00:00:00Z',
+    publishDate: '2025-01-10T00:00:00Z',
     category: 'Education',
     tags: ['AI', 'Education', 'Talent Development', 'Skills', 'Africa'],
     image: '/src/assets/images/book-cover.png',
