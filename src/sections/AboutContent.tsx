@@ -86,8 +86,8 @@ export const AboutContent = () => {
                     </div>
                     <div className="space-y-4 text-white/80 leading-relaxed">
                       <p>
-                        A passionate AI researcher and developer with expertise in agricultural technology, 
-                        machine learning, and full-stack development. I focus on creating practical AI solutions 
+                        A passionate AI researcher and developer with expertise in 
+                        machine learning and full-stack development. I focus on creating practical AI solutions 
                         that address real challenges facing African communities.
                       </p>
                       <p>
@@ -123,7 +123,7 @@ export const AboutContent = () => {
                         <p>
                           Prince Chris is a dedicated AI researcher and developer with a passion for leveraging 
                           technology to solve real-world challenges across Africa. With expertise in machine learning, 
-                          agricultural technology, and full-stack development, he focuses on creating practical 
+                          data science, and full-stack development, he focuses on creating practical 
                           solutions that make a difference.
                         </p>
                         <p>
